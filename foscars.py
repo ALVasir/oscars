@@ -1,42 +1,62 @@
 import os
 
-def opcion1(cabecera,diccionario):
-# Listado de películas ganadoras, tanto de USA como extrajeras
+
+def opcion1(cabecera, diccionario):
+# 1. Listado de todas las películas ganadoras indicando su categoría y el año
     os.system('cls')
     print(cabecera)
-    for anyo in diccionario["Oscars"]:
-        for categoria, detalle in anyo["categorias"].items():
-            if categoria.lower() == "mejor película":  # Filtrar solo ganadores de "Mejor Película"
-                # Extraer nombre de la película y nacionalidad
-                pelicula = detalle["titulo"] if isinstance(detalle, dict) else detalle
-                nacionalidad = detalle.get("nacionalidad", "Desconocida") if isinstance(detalle, dict) else "Desconocida"
-                
-                # Determinar si es de EE.UU. o extranjera
-                origen = "EE.UU." if "EE.UU." in nacionalidad else "Extranjera"
-
-                print(f"Año {anyo['año']}: {pelicula} - {origen}")
-
-
-
-
-
-def opcion3():
-    import json
- 
-
-def opcion4(diccionario):
-   for año in diccionario["Oscars"]["años"]:
-    print(f"\n🏆 Año {año['año']}")
-    print("=" * 40)
+    print("\nLISTADO COMPLETO DE PELÍCULAS GANADORAS DE LOS OSCARS\n")
+    print(f"{'Año':<5} | {'Categoría':<20} | {'Película Ganadora':<45} | {'Ganador/a'}")
+    print("-" * 100)
     
-    for categoria, detalle in año["categorias"].items():
-        print(f"{categoria} →", end=" ")
-        if isinstance(detalle, dict):
-            if "ganador" in detalle:
-                print(detalle["ganador"], "-", detalle["pelicula"])
-            elif "ganadora" in detalle:
-                print(detalle["ganadora"], "-", detalle["pelicula"])
-            elif "titulo" in detalle:
-                print(detalle["titulo"])
-        else:
-            print(detalle)
+    categoriasl_premiadas = ['Mejor Pelicula','Mejor Director','Mejor Actor','Mejor Actriz','Mejor Actor de Reparto','Mejor Actriz de Reparto']
+    
+    for anyodicc in diccionario["Ganadores"]:
+        for anyo, categorias in anyodicc.items():
+            for categoria, datos in categorias.items():
+                if categoria in categoriasl_premiadas:
+                    if categoria == 'Mejor Pelicula':
+                        pelicula = datos.get('Titulo', 'Desconocido')
+                        ganador = datos.get('Director', {}).get('Nombre', 'Desconocido')
+                    else:
+                        pelicula = datos.get('Pelicula', 'Desconocido')
+                        ganador = datos.get('Ganador', datos.get('Ganadora', 'Desconocido'))
+                    
+                    print(f"{anyo:<5} | {categoria:<20} | {pelicula:<45} | {ganador}")
+    
+    input("\n< presione ENTER para volver al MENÚ >")
+
+def opcion2(cabecera, diccionario):
+# 2. Lista las películas de Reino Unido e indica cuántas son
+    os.system('cls')
+    print(cabecera)
+    print("\nPELÍCULAS DEL REINO UNIDO GANADORAS DE OSCARS\n")
+    
+    peliculas_uk = []
+    
+    for anyodicc in diccionario["Ganadores"]:
+        for anyo, categorias in anyodicc.items():
+            if "Mejor Pelicula" in categorias:
+                pelicula = categorias["Mejor Pelicula"]
+                nacionalidad = pelicula["Director"].get("Nacionalidad", "")
+                
+                if nacionalidad == "Reino Unido":
+                    info = {
+                        'año': anyo,
+                        'titulo': pelicula["Titulo"],
+                        'director': pelicula["Director"]["Nombre"],
+                        'premios': ", ".join(pelicula.get("Premios Ganados", []))
+                    }
+                    peliculas_uk.append(info)
+    
+    if peliculas_uk:
+        print(f"{'Año':<5} | {'Película':<35} | {'Director':<25} | {'Premios'}")
+        print("-" * 90)
+        for pelicula in peliculas_uk:
+            print(f"{pelicula['año']:<5} | {pelicula['titulo']:<35} | {pelicula['director']:<25} | {pelicula['premios']}")
+        
+        print(f"\nTotal de películas del Reino Unido: {len(peliculas_uk)}")
+    else:
+        print("No se encontraron películas del Reino Unido.")
+    
+    input("\n< presione ENTER para volver al MENÚ >")
