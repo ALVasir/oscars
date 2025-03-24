@@ -17,46 +17,74 @@ Estructura del diccionario de diccionarios:
 Oscars = {"Ganadores": [lista de años 2010-2024], "Nominados": [lista de años 2010-2024], "Presentadores": [lista de años 2010-2024], "Anécdotas": [lista de años 2010-2024]} 
 Años = {"Mejor Película": {diccionario con datos}, "Mejor Dirección": {diccionario con datos}, "Mejor Actor": {diccionario con datos}, "Mejor Actriz": {diccionario con datos}
 
-Ejemplo del diccionario con un año:
+Ejemplo del diccionario con el primer y último año:
 
 ```python
 {
-	"Ganadores": [
-		2010: {
-			"Mejor Película": {
-				"Título": "The Hurt Locker",
-				"Director": {
-					"Nombre": "Kathryn Bigelow",
-					"Nacionalidad": "EE.UU."
-				},
-				"Productores": ["Kathryn Bigelow", "Mark Boal"],
-				"Actores Principales": [
-					{"Nombre": "Jeremy Renner", "Personaje": "Sargento William James"},
-					{"Nombre": "Anthony Mackie", "Personaje": "Sargento J.T. Sanborn"}
-				],
-				"Premios Ganados": ["Mejor Película", "Mejor Dirección", "Mejor Guión Original"]
-			},
-			"Mejor Dirección": {
-				"Ganador": "Kathryn Bigelow",
-				"Película": "The Hurt Locker",
-				"Nacionalidad": "EE.UU."
-			},
-			"Mejor Actor": {
-				"Ganador": "Jeff Bridges",
-				"Película": "Crazy Heart",
-				"Personaje": "Bad Blake"
-			},
-			"Mejor Actriz": {
-				"Ganador": "Sandra Bullock",
-				"Película": "The Blind Side",
-				"Personaje": "Leigh Anne Tuohy"
-			}
-		},
-		2024: {
-		.
-		.
-		.
-		}
-	]
+  "Ganadores": [
+    2010: {
+      "Mejor Película": {
+        "Título": "The Hurt Locker",
+        "Director": {
+          "Nombre": "Kathryn Bigelow",
+          "Nacionalidad": "EE.UU."
+        },
+        "Productores": ["Kathryn Bigelow", "Mark Boal"],
+        "Actores Principales": [
+          {"Nombre": "Jeremy Renner", "Personaje": "Sargento William James"},
+          {"Nombre": "Anthony Mackie", "Personaje": "Sargento J.T. Sanborn"}
+        ],
+        "Premios Ganados": ["Mejor Película", "Mejor Dirección", "Mejor Guión Original"]
+      },
+      "Mejor Dirección": {
+        "Ganador": "Kathryn Bigelow",
+        "Película": "The Hurt Locker",
+        "Nacionalidad": "EE.UU."
+      },
+      "Mejor Actor": {
+        "Ganador": "Jeff Bridges",
+        "Película": "Crazy Heart",
+        "Personaje": "Bad Blake"
+      },
+      "Mejor Actriz": {
+        "Ganadora": "Sandra Bullock",
+        "Película": "The Blind Side",
+        "Personaje": "Leigh Anne Tuohy"
+      }
+    },
+    ...
+    ...
+    ...
+    2024: {
+      "Mejor Película": {
+        "Título": "Oppenheimer",
+        "Director": {
+          "Nombre": "Christopher Nolan",
+          "Nacionalidad": "Reino Unido"
+        },
+        "Productores": ["Emma Thomas", "Charles Roven"],
+        "Actores Principales": [
+          { "Nombre": "Cillian Murphy", "Personaje": "J. Robert Oppenheimer" },
+          { "Nombre": "Robert Downey Jr.", "Personaje": "Lewis Strauss" }
+        ],
+        "Premios Ganados": ["Mejor Película", "Mejor Director", "Mejor Actor (Cillian Murphy)", "Mejor Actor de Reparto (Robert Downey Jr.)"]
+      },
+      "Mejor Dirección": {
+        "Ganador": "Christopher Nolan",
+        "Película": "Oppenheimer",
+        "Nacionalidad": "Reino Unido"
+      },
+      "Mejor Actor": {
+        "Ganador": "Cillian Murphy",
+        "Película": "Oppenheimer",
+        "Personaje": "J. Robert Oppenheimer"
+      },
+      "Mejor Actriz": {
+        "Ganadora": "Emma Stone",
+        "Película": "Poor Things",
+        "Personaje": "Bella Baxter"
+      }
+    }
+  ]
 }
 ```
