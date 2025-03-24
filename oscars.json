@@ -1,501 +1,454 @@
 {
-  "Oscars": {
-    "Años": [
-      {
-        "año": 2010,
-        "categorias": {
-          "Mejor Película": {
-            "titulo": "The Hurt Locker",
-            "director": {
-              "nombre": "Kathryn Bigelow",
-              "nacionalidad": "EE.UU."
-            },
-            "productores": ["Kathryn Bigelow", "Mark Boal"],
-            "actores_principales": [
-              { "nombre": "Jeremy Renner", "personaje": "Sargento William James" },
-              { "nombre": "Anthony Mackie", "personaje": "Sargento J.T. Sanborn" }
-            ],
-            "premios_ganados": ["Mejor Película", "Mejor Dirección", "Mejor Guion Original"]
-          },
-          "Mejor Dirección": {
-            "ganador": "Kathryn Bigelow",
-            "pelicula": "The Hurt Locker",
-            "nacionalidad": "EE.UU."
-          },
-          "Mejor Actor": {
-            "ganador": "Jeff Bridges",
-            "pelicula": "Crazy Heart",
-            "personaje": "Bad Blake"
-          },
-          "Mejor Actriz": {
-            "ganadora": "Sandra Bullock",
-            "pelicula": "The Blind Side",
-            "personaje": "Leigh Anne Tuohy"
-          }
-        }
+  "Ganadores": [
+    2010: {
+      "Mejor Película": {
+        "Título": "The Hurt Locker",
+        "Director": {
+          "Nombre": "Kathryn Bigelow",
+          "Nacionalidad": "EE.UU."
+        },
+        "Productores": ["Kathryn Bigelow", "Mark Boal"],
+        "Actores Principales": [
+          {"Nombre": "Jeremy Renner", "Personaje": "Sargento William James"},
+          {"Nombre": "Anthony Mackie", "Personaje": "Sargento J.T. Sanborn"}
+        ],
+        "Premios Ganados": ["Mejor Película", "Mejor Dirección", "Mejor Guión Original"]
       },
-      {
-        "año": 2011,
-        "categorias": {
-          "Mejor Película": {
-            "titulo": "The King's Speech",
-            "director": {
-              "nombre": "Tom Hooper",
-              "nacionalidad": "Reino Unido"
-            },
-            "productores": ["Iain Canning", "Emile Sherman"],
-            "actores_principales": [
-              { "nombre": "Colin Firth", "personaje": "Rey Jorge VI" },
-              { "nombre": "Geoffrey Rush", "personaje": "Lionel Logue" }
-            ],
-            "premios_ganados": ["Mejor Película", "Mejor Dirección", "Mejor Actor (Colin Firth)"]
-          },
-          "Mejor Dirección": {
-            "ganador": "Tom Hooper",
-            "pelicula": "The King's Speech",
-            "nacionalidad": "Reino Unido"
-          },
-          "Mejor Actor": {
-            "ganador": "Colin Firth",
-            "pelicula": "The King's Speech",
-            "personaje": "Rey Jorge VI"
-          },
-          "Mejor Actriz": {
-            "ganadora": "Natalie Portman",
-            "pelicula": "Black Swan",
-            "personaje": "Nina Sayers"
-          }
-        }
+      "Mejor Dirección": {
+        "Ganador": "Kathryn Bigelow",
+        "Película": "The Hurt Locker",
+        "Nacionalidad": "EE.UU."
       },
-      {
-        "año": 2012,
-        "categorias": {
-          "Mejor Película": {
-            "titulo": "Argo",
-            "director": {
-              "nombre": "Ben Affleck",
-              "nacionalidad": "EE.UU."
-            },
-            "productores": ["Grant Heslov", "Ben Affleck", "George Clooney"],
-            "actores_principales": [
-              { "nombre": "Ben Affleck", "personaje": "Tony Mendez" },
-              { "nombre": "Bryan Cranston", "personaje": "Jack O'Donnell" }
-            ],
-            "premios_ganados": ["Mejor Película", "Mejor Guion Adaptado", "Mejor Montaje"]
-          },
-          "Mejor Dirección": {
-            "ganador": "Ang Lee",
-            "pelicula": "Life of Pi",
-            "nacionalidad": "Taiwán"
-          },
-          "Mejor Actor": {
-            "ganador": "Daniel Day-Lewis",
-            "pelicula": "Lincoln",
-            "personaje": "Abraham Lincoln"
-          },
-          "Mejor Actriz": {
-            "ganadora": "Jennifer Lawrence",
-            "pelicula": "Silver Linings Playbook",
-            "personaje": "Tiffany Maxwell"
-          }
-        }
+      "Mejor Actor": {
+        "Ganador": "Jeff Bridges",
+        "Película": "Crazy Heart",
+        "Personaje": "Bad Blake"
       },
-      {
-        "año": 2013,
-        "categorias": {
-          "Mejor Película": {
-            "titulo": "12 Years a Slave",
-            "director": {
-              "nombre": "Steve McQueen",
-              "nacionalidad": "Reino Unido"
-            },
-            "productores": ["Brad Pitt", "Dede Gardner", "Jeremy Kleiner"],
-            "actores_principales": [
-              { "nombre": "Chiwetel Ejiofor", "personaje": "Solomon Northup" },
-              { "nombre": "Lupita Nyong'o", "personaje": "Patsey" }
-            ],
-            "premios_ganados": ["Mejor Película", "Mejor Actriz de Reparto", "Mejor Guion Adaptado"]
-          },
-          "Mejor Dirección": {
-            "ganador": "Alfonso Cuarón",
-            "pelicula": "Gravity",
-            "nacionalidad": "México"
-          },
-          "Mejor Actor": {
-            "ganador": "Matthew McConaughey",
-            "pelicula": "Dallas Buyers Club",
-            "personaje": "Ron Woodroof"
-          },
-          "Mejor Actriz": {
-            "ganadora": "Cate Blanchett",
-            "pelicula": "Blue Jasmine",
-            "personaje": "Jasmine"
-          }
-        }
-      },
-      {
-        "año": 2014,
-        "categorias": {
-          "Mejor Película": {
-            "titulo": "Birdman",
-            "director": {
-              "nombre": "Alejandro G. Iñárritu",
-              "nacionalidad": "México"
-            },
-            "productores": ["Alejandro G. Iñárritu", "John Lesher", "James W. Skotchdopole"],
-            "actores_principales": [
-              { "nombre": "Michael Keaton", "personaje": "Riggan Thomson" },
-              { "nombre": "Edward Norton", "personaje": "Mike Shiner" }
-            ],
-            "premios_ganados": ["Mejor Película", "Mejor Director", "Mejor Guion Original", "Mejor Fotografía"]
-          },
-          "Mejor Dirección": {
-            "ganador": "Alejandro G. Iñárritu",
-            "pelicula": "Birdman",
-            "nacionalidad": "México"
-          },
-          "Mejor Actor": {
-            "ganador": "Eddie Redmayne",
-            "pelicula": "The Theory of Everything",
-            "personaje": "Stephen Hawking"
-          },
-          "Mejor Actriz": {
-            "ganadora": "Julianne Moore",
-            "pelicula": "Still Alice",
-            "personaje": "Alice Howland"
-          }
-        }
-      },
-      {
-        "año": 2015,
-        "categorias": {
-          "Mejor Película": {
-            "titulo": "Spotlight",
-            "director": {
-              "nombre": "Tom McCarthy",
-              "nacionalidad": "EE.UU."
-            },
-            "productores": ["Michael Sugar", "Steve Golin"],
-            "actores_principales": [
-              { "nombre": "Mark Ruffalo", "personaje": "Michael Rezendes" },
-              { "nombre": "Michael Keaton", "personaje": "Walter Robinson" }
-            ],
-            "premios_ganados": ["Mejor Película", "Mejor Guion Original"]
-          },
-          "Mejor Dirección": {
-            "ganador": "Alejandro G. Iñárritu",
-            "pelicula": "The Revenant",
-            "nacionalidad": "México"
-          },
-          "Mejor Actor": {
-            "ganador": "Leonardo DiCaprio",
-            "pelicula": "The Revenant",
-            "personaje": "Hugh Glass"
-          },
-          "Mejor Actriz": {
-            "ganadora": "Brie Larson",
-            "pelicula": "Room",
-            "personaje": "Joy 'Ma' Newsome"
-          }
-        }
-      },
-      {
-        "año": 2016,
-        "categorias": {
-          "Mejor Película": {
-            "titulo": "Moonlight",
-            "director": {
-              "nombre": "Barry Jenkins",
-              "nacionalidad": "EE.UU."
-            },
-            "productores": ["Adele Romanski", "Dede Gardner", "Jeremy Kleiner"],
-            "actores_principales": [
-              { "nombre": "Trevante Rhodes", "personaje": "Chiron" },
-              { "nombre": "Mahershala Ali", "personaje": "Juan" }
-            ],
-            "premios_ganados": ["Mejor Película", "Mejor Actor de Reparto (Mahershala Ali)", "Mejor Guion Adaptado"]
-          },
-          "Mejor Dirección": {
-            "ganador": "Damien Chazelle",
-            "pelicula": "La La Land",
-            "nacionalidad": "EE.UU."
-          },
-          "Mejor Actor": {
-            "ganador": "Casey Affleck",
-            "pelicula": "Manchester by the Sea",
-            "personaje": "Lee Chandler"
-          },
-          "Mejor Actriz": {
-            "ganadora": "Emma Stone",
-            "pelicula": "La La Land",
-            "personaje": "Mia Dolan"
-          }
-        }
-      },
-      {
-        "año": 2017,
-        "categorias": {
-          "Mejor Película": {
-            "titulo": "The Shape of Water",
-            "director": {
-              "nombre": "Guillermo del Toro",
-              "nacionalidad": "México"
-            },
-            "productores": ["Guillermo del Toro", "J. Miles Dale"],
-            "actores_principales": [
-              { "nombre": "Sally Hawkins", "personaje": "Elisa Esposito" },
-              { "nombre": "Michael Shannon", "personaje": "Richard Strickland" }
-            ],
-            "premios_ganados": ["Mejor Película", "Mejor Dirección", "Mejor Diseño de Producción", "Mejor Banda Sonora"]
-          },
-          "Mejor Dirección": {
-            "ganador": "Guillermo del Toro",
-            "pelicula": "The Shape of Water",
-            "nacionalidad": "México"
-          },
-          "Mejor Actor": {
-            "ganador": "Gary Oldman",
-            "pelicula": "Darkest Hour",
-            "personaje": "Winston Churchill"
-          },
-          "Mejor Actriz": {
-            "ganadora": "Frances McDormand",
-            "pelicula": "Three Billboards Outside Ebbing, Missouri",
-            "personaje": "Mildred Hayes"
-          }
-        }
-      },
-      {
-        "año": 2018,
-        "categorias": {
-          "Mejor Película": {
-            "titulo": "Green Book",
-            "director": {
-              "nombre": "Peter Farrelly",
-              "nacionalidad": "EE.UU."
-            },
-            "productores": ["Jim Burke", "Charles B. Wessler", "Brian Currie"],
-            "actores_principales": [
-              { "nombre": "Viggo Mortensen", "personaje": "Tony Lip" },
-              { "nombre": "Mahershala Ali", "personaje": "Dr. Don Shirley" }
-            ],
-            "premios_ganados": ["Mejor Película", "Mejor Actor de Reparto (Mahershala Ali)", "Mejor Guion Original"]
-          },
-          "Mejor Dirección": {
-            "ganador": "Alfonso Cuarón",
-            "pelicula": "Roma",
-            "nacionalidad": "México"
-          },
-          "Mejor Actor": {
-            "ganador": "Rami Malek",
-            "pelicula": "Bohemian Rhapsody",
-            "personaje": "Freddie Mercury"
-          },
-          "Mejor Actriz": {
-            "ganadora": "Olivia Colman",
-            "pelicula": "The Favourite",
-            "personaje": "Reina Ana"
-          }
-        }
-      },
-      {
-        "año": 2019,
-        "categorias": {
-          "Mejor Película": {
-            "titulo": "Parasite",
-            "director": {
-              "nombre": "Bong Joon-ho",
-              "nacionalidad": "Corea del Sur"
-            },
-            "productores": ["Kwak Sin-ae", "Jang Young-hwan"],
-            "actores_principales": [
-              { "nombre": "Song Kang-ho", "personaje": "Kim Ki-taek" },
-              { "nombre": "Lee Sun-kyun", "personaje": "Park Dong-ik" }
-            ],
-            "premios_ganados": ["Mejor Película", "Mejor Dirección", "Mejor Guion Original", "Mejor Película Internacional"]
-          },
-          "Mejor Dirección": {
-            "ganador": "Bong Joon-ho",
-            "pelicula": "Parasite",
-            "nacionalidad": "Corea del Sur"
-          },
-          "Mejor Actor": {
-            "ganador": "Joaquin Phoenix",
-            "pelicula": "Joker",
-            "personaje": "Arthur Fleck / Joker"
-          },
-          "Mejor Actriz": {
-            "ganadora": "Renée Zellweger",
-            "pelicula": "Judy",
-            "personaje": "Judy Garland"
-          }
-        }
-      },
-      {
-        "año": 2020,
-        "categorias": {
-          "Mejor Película": {
-            "titulo": "Nomadland",
-            "director": {
-              "nombre": "Chloé Zhao",
-              "nacionalidad": "China"
-            },
-            "productores": ["Frances McDormand", "Peter Spears"],
-            "actores_principales": [
-              { "nombre": "Frances McDormand", "personaje": "Fern" },
-              { "nombre": "David Strathairn", "personaje": "Dave" }
-            ],
-            "premios_ganados": ["Mejor Película", "Mejor Dirección", "Mejor Actriz"]
-          },
-          "Mejor Dirección": {
-            "ganador": "Chloé Zhao",
-            "pelicula": "Nomadland",
-            "nacionalidad": "China"
-          },
-          "Mejor Actor": {
-            "ganador": "Anthony Hopkins",
-            "pelicula": "The Father",
-            "personaje": "Anthony"
-          },
-          "Mejor Actriz": {
-            "ganadora": "Frances McDormand",
-            "pelicula": "Nomadland",
-            "personaje": "Fern"
-          }
-        }
-      },
-      {
-        "año": 2021,
-        "categorias": {
-          "Mejor Película": {
-            "titulo": "Nomadland",
-            "director": {
-              "nombre": "Chloé Zhao",
-              "nacionalidad": "China"
-            },
-            "productores": ["Frances McDormand", "Peter Spears"],
-            "actores_principales": [
-              { "nombre": "Frances McDormand", "personaje": "Fern" },
-              { "nombre": "David Strathairn", "personaje": "Dave" }
-            ],
-            "premios_ganados": ["Mejor Película", "Mejor Dirección", "Mejor Actriz"]
-          },
-          "Mejor Dirección": {
-            "ganador": "Chloé Zhao",
-            "pelicula": "Nomadland",
-            "nacionalidad": "China"
-          },
-          "Mejor Actor": {
-            "ganador": "Anthony Hopkins",
-            "pelicula": "The Father",
-            "personaje": "Anthony"
-          },
-          "Mejor Actriz": {
-            "ganadora": "Frances McDormand",
-            "pelicula": "Nomadland",
-            "personaje": "Fern"
-          }
-        }
-      },
-      {
-        "año": 2022,
-        "categorias": {
-          "Mejor Película": {
-            "titulo": "CODA",
-            "director": {
-              "nombre": "Sian Heder",
-              "nacionalidad": "EE.UU."
-            },
-            "productores": ["Philippe Rousselet", "Patrick Wachsberger"],
-            "actores_principales": [
-              { "nombre": "Emilia Jones", "personaje": "Ruby Rossi" },
-              { "nombre": "Troy Kotsur", "personaje": "Frank Rossi" }
-            ],
-            "premios_ganados": ["Mejor Película", "Mejor Actor de Reparto (Troy Kotsur)", "Mejor Guion Adaptado"]
-          },
-          "Mejor Dirección": {
-            "ganador": "Jane Campion",
-            "pelicula": "The Power of the Dog",
-            "nacionalidad": "Nueva Zelanda"
-          },
-          "Mejor Actor": {
-            "ganador": "Will Smith",
-            "pelicula": "King Richard",
-            "personaje": "Richard Williams"
-          },
-          "Mejor Actriz": {
-            "ganadora": "Jessica Chastain",
-            "pelicula": "The Eyes of Tammy Faye",
-            "personaje": "Tammy Faye Bakker"
-          }
-        }
-      },
-      {
-        "año": 2023,
-        "categorias": {
-          "Mejor Película": {
-            "titulo": "Everything Everywhere All at Once",
-            "director": {
-              "nombre": "Daniel Kwan & Daniel Scheinert",
-              "nacionalidad": "EE.UU."
-            },
-            "productores": ["Jonathan Wang"],
-            "actores_principales": [
-              { "nombre": "Michelle Yeoh", "personaje": "Evelyn Wang" },
-              { "nombre": "Ke Huy Quan", "personaje": "Waymond Wang" }
-            ],
-            "premios_ganados": ["Mejor Película", "Mejor Director", "Mejor Actriz (Michelle Yeoh)", "Mejor Actor de Reparto (Ke Huy Quan)"]
-          },
-          "Mejor Dirección": {
-            "ganador": "Daniel Kwan & Daniel Scheinert",
-            "pelicula": "Everything Everywhere All at Once",
-            "nacionalidad": "EE.UU."
-          },
-          "Mejor Actor": {
-            "ganador": "Brendan Fraser",
-            "pelicula": "The Whale",
-            "personaje": "Charlie"
-          },
-          "Mejor Actriz": {
-            "ganadora": "Michelle Yeoh",
-            "pelicula": "Everything Everywhere All at Once",
-            "personaje": "Evelyn Wang"
-          }
-        }
-      },
-      {
-        "año": 2024,
-        "categorias": {
-          "Mejor Película": {
-            "titulo": "Oppenheimer",
-            "director": {
-              "nombre": "Christopher Nolan",
-              "nacionalidad": "Reino Unido"
-            },
-            "productores": ["Emma Thomas", "Charles Roven"],
-            "actores_principales": [
-              { "nombre": "Cillian Murphy", "personaje": "J. Robert Oppenheimer" },
-              { "nombre": "Robert Downey Jr.", "personaje": "Lewis Strauss" }
-            ],
-            "premios_ganados": ["Mejor Película", "Mejor Director", "Mejor Actor (Cillian Murphy)", "Mejor Actor de Reparto (Robert Downey Jr.)"]
-          },
-          "Mejor Dirección": {
-            "ganador": "Christopher Nolan",
-            "pelicula": "Oppenheimer",
-            "nacionalidad": "Reino Unido"
-          },
-          "Mejor Actor": {
-            "ganador": "Cillian Murphy",
-            "pelicula": "Oppenheimer",
-            "personaje": "J. Robert Oppenheimer"
-          },
-          "Mejor Actriz": {
-            "ganadora": "Emma Stone",
-            "pelicula": "Poor Things",
-            "personaje": "Bella Baxter"
-          }
-        }
+      "Mejor Actriz": {
+        "Ganadora": "Sandra Bullock",
+        "Película": "The Blind Side",
+        "Personaje": "Leigh Anne Tuohy"
       }
-    ]
-  }
+    },
+    2011: {
+      "Mejor Película": {
+        "Título": "The King's Speech",
+        "Director": {
+          "Nombre": "Tom Hooper",
+          "Nacionalidad": "Reino Unido"
+        },
+        "Productores": ["Iain Canning", "Emile Sherman"],
+        "Actores Principales": [
+          { "Nombre": "Colin Firth", "Personaje": "Rey Jorge VI" },
+          { "Nombre": "Geoffrey Rush", "Personaje": "Lionel Logue" }
+        ],
+        "Premios Ganados": ["Mejor Película", "Mejor Dirección", "Mejor Actor (Colin Firth)"]
+      },
+      "Mejor Dirección": {
+        "Ganador": "Tom Hooper",
+        "Película": "The King's Speech",
+        "Nacionalidad": "Reino Unido"
+      },
+      "Mejor Actor": {
+        "Ganador": "Colin Firth",
+        "Película": "The King's Speech",
+        "Personaje": "Rey Jorge VI"
+      },
+      "Mejor Actriz": {
+        "Ganadora": "Natalie Portman",
+        "Película": "Black Swan",
+        "Personaje": "Nina Sayers"
+      }
+    },
+    2012: {
+      "Mejor Película": {
+        "Título": "Argo",
+        "Director": {
+          "Nombre": "Ben Affleck",
+          "Nacionalidad": "EE.UU."
+        },
+        "Productores": ["Grant Heslov", "Ben Affleck", "George Clooney"],
+        "Actores Principales": [
+          { "Nombre": "Ben Affleck", "Personaje": "Tony Mendez" },
+          { "Nombre": "Bryan Cranston", "Personaje": "Jack O'Donnell" }
+        ],
+        "Premios Ganados": ["Mejor Película", "Mejor Guion Adaptado", "Mejor Montaje"]
+      },
+      "Mejor Dirección": {
+        "Ganador": "Ang Lee",
+        "Película": "Life of Pi",
+        "Nacionalidad": "Taiwán"
+      },
+      "Mejor Actor": {
+        "Ganador": "Daniel Day-Lewis",
+        "Película": "Lincoln",
+        "Personaje": "Abraham Lincoln"
+      },
+      "Mejor Actriz": {
+        "Ganadora": "Jennifer Lawrence",
+        "Película": "Silver Linings Playbook",
+        "Personaje": "Tiffany Maxwell"
+      }
+    },
+    2013: {
+      "Mejor Película": {
+        "Título": "12 Years a Slave",
+        "Director": {
+          "Nombre": "Steve McQueen",
+          "Nacionalidad": "Reino Unido"
+        },
+        "Productores": ["Brad Pitt", "Dede Gardner", "Jeremy Kleiner"],
+        "Actores Principales": [
+          { "Nombre": "Chiwetel Ejiofor", "Personaje": "Solomon Northup" },
+          { "Nombre": "Lupita Nyong'o", "Personaje": "Patsey" }
+        ],
+        "Premios Ganados": ["Mejor Película", "Mejor Actriz de Reparto", "Mejor Guion Adaptado"]
+      },
+      "Mejor Dirección": {
+        "Ganador": "Alfonso Cuarón",
+        "Película": "Gravity",
+        "Nacionalidad": "México"
+      },
+      "Mejor Actor": {
+        "Ganador": "Matthew McConaughey",
+        "Película": "Dallas Buyers Club",
+        "Personaje": "Ron Woodroof"
+      },
+      "Mejor Actriz": {
+        "Ganadora": "Cate Blanchett",
+        "Película": "Blue Jasmine",
+        "Personaje": "Jasmine"
+      }
+    },
+    2014: {
+      "Mejor Película": {
+        "Título": "Birdman",
+        "Director": {
+          "Nombre": "Alejandro G. Iñárritu",
+          "Nacionalidad": "México"
+        },
+        "Productores": ["Alejandro G. Iñárritu", "John Lesher", "James W. Skotchdopole"],
+        "Actores Principales": [
+          { "Nombre": "Michael Keaton", "Personaje": "Riggan Thomson" },
+          { "Nombre": "Edward Norton", "Personaje": "Mike Shiner" }
+        ],
+        "Premios Ganados": ["Mejor Película", "Mejor Director", "Mejor Guion Original", "Mejor Fotografía"]
+      },
+      "Mejor Dirección": {
+        "Ganador": "Alejandro G. Iñárritu",
+        "Película": "Birdman",
+        "Nacionalidad": "México"
+      },
+      "Mejor Actor": {
+        "Ganador": "Eddie Redmayne",
+        "Película": "The Theory of Everything",
+        "Personaje": "Stephen Hawking"
+      },
+      "Mejor Actriz": {
+        "Ganadora": "Julianne Moore",
+        "Película": "Still Alice",
+        "Personaje": "Alice Howland"
+      }
+    },
+    2015: {
+      "Mejor Película": {
+        "Título": "Spotlight",
+        "Director": {
+          "Nombre": "Tom McCarthy",
+          "Nacionalidad": "EE.UU."
+        },
+        "Productores": ["Michael Sugar", "Steve Golin"],
+        "Actores Principales": [
+          { "Nombre": "Mark Ruffalo", "Personaje": "Michael Rezendes" },
+          { "Nombre": "Michael Keaton", "Personaje": "Walter Robinson" }
+        ],
+        "Premios Ganados": ["Mejor Película", "Mejor Guion Original"]
+      },
+      "Mejor Dirección": {
+        "Ganador": "Alejandro G. Iñárritu",
+        "Película": "The Revenant",
+        "Nacionalidad": "México"
+      },
+      "Mejor Actor": {
+        "Ganador": "Leonardo DiCaprio",
+        "Película": "The Revenant",
+        "Personaje": "Hugh Glass"
+      },
+      "Mejor Actriz": {
+        "Ganadora": "Brie Larson",
+        "Película": "Room",
+        "Personaje": "Joy 'Ma' Newsome"
+      }
+    },
+    2016: {
+      "Mejor Película": {
+        "Título": "Moonlight",
+        "Director": {
+          "Nombre": "Barry Jenkins",
+          "Nacionalidad": "EE.UU."
+        },
+        "Productores": ["Adele Romanski", "Dede Gardner", "Jeremy Kleiner"],
+        "Actores Principales": [
+          { "Nombre": "Trevante Rhodes", "Personaje": "Chiron" },
+          { "Nombre": "Mahershala Ali", "Personaje": "Juan" }
+        ],
+        "Premios Ganados": ["Mejor Película", "Mejor Actor de Reparto (Mahershala Ali)", "Mejor Guion Adaptado"]
+      },
+      "Mejor Dirección": {
+        "Ganador": "Damien Chazelle",
+        "Película": "La La Land",
+        "Nacionalidad": "EE.UU."
+      },
+      "Mejor Actor": {
+        "Ganador": "Casey Affleck",
+        "Película": "Manchester by the Sea",
+        "Personaje": "Lee Chandler"
+      },
+      "Mejor Actriz": {
+        "Ganadora": "Emma Stone",
+        "Película": "La La Land",
+        "Personaje": "Mia Dolan"
+      }
+    },
+    2017: {
+      "Mejor Película": {
+        "Título": "The Shape of Water",
+        "Director": {
+          "Nombre": "Guillermo del Toro",
+          "Nacionalidad": "México"
+        },
+        "Productores": ["Guillermo del Toro", "J. Miles Dale"],
+        "Actores Principales": [
+          { "Nombre": "Sally Hawkins", "Personaje": "Elisa Esposito" },
+          { "Nombre": "Michael Shannon", "Personaje": "Richard Strickland" }
+        ],
+        "Premios Ganados": ["Mejor Película", "Mejor Dirección", "Mejor Diseño de Producción", "Mejor Banda Sonora"]
+      },
+      "Mejor Dirección": {
+        "Ganador": "Guillermo del Toro",
+        "Película": "The Shape of Water",
+        "Nacionalidad": "México"
+      },
+      "Mejor Actor": {
+        "Ganador": "Gary Oldman",
+        "Película": "Darkest Hour",
+        "Personaje": "Winston Churchill"
+      },
+      "Mejor Actriz": {
+        "Ganadora": "Frances McDormand",
+        "Película": "Three Billboards Outside Ebbing, Missouri",
+        "Personaje": "Mildred Hayes"
+      }
+    },
+    2018: {
+      "Mejor Película": {
+        "Título": "Green Book",
+        "Director": {
+          "Nombre": "Peter Farrelly",
+          "Nacionalidad": "EE.UU."
+        },
+        "Productores": ["Jim Burke", "Charles B. Wessler", "Brian Currie"],
+        "Actores Principales": [
+          { "Nombre": "Viggo Mortensen", "Personaje": "Tony Lip" },
+          { "Nombre": "Mahershala Ali", "Personaje": "Dr. Don Shirley" }
+        ],
+        "Premios Ganados": ["Mejor Película", "Mejor Actor de Reparto (Mahershala Ali)", "Mejor Guion Original"]
+      },
+      "Mejor Dirección": {
+        "Ganador": "Alfonso Cuarón",
+        "Película": "Roma",
+        "Nacionalidad": "México"
+      },
+      "Mejor Actor": {
+        "Ganador": "Rami Malek",
+        "Película": "Bohemian Rhapsody",
+        "Personaje": "Freddie Mercury"
+      },
+      "Mejor Actriz": {
+        "Ganadora": "Olivia Colman",
+        "Película": "The Favourite",
+        "Personaje": "Reina Ana"
+      }
+    },
+    2019: {
+      "Mejor Película": {
+        "Título": "Parasite",
+        "Director": {
+          "Nombre": "Bong Joon-ho",
+          "Nacionalidad": "Corea del Sur"
+        },
+        "Productores": ["Kwak Sin-ae", "Jang Young-hwan"],
+        "Actores Principales": [
+          { "Nombre": "Song Kang-ho", "Personaje": "Kim Ki-taek" },
+          { "Nombre": "Lee Sun-kyun", "Personaje": "Park Dong-ik" }
+        ],
+        "Premios Ganados": ["Mejor Película", "Mejor Dirección", "Mejor Guion Original", "Mejor Película Internacional"]
+      },
+      "Mejor Dirección": {
+        "Ganador": "Bong Joon-ho",
+        "Película": "Parasite",
+        "Nacionalidad": "Corea del Sur"
+      },
+      "Mejor Actor": {
+        "Ganador": "Joaquin Phoenix",
+        "Película": "Joker",
+        "Personaje": "Arthur Fleck / Joker"
+      },
+      "Mejor Actriz": {
+        "Ganadora": "Renée Zellweger",
+        "Película": "Judy",
+        "Personaje": "Judy Garland"
+      }
+    },
+    2020: {
+      "Mejor Película": {
+        "Título": "Nomadland",
+        "Director": {
+          "Nombre": "Chloé Zhao",
+          "Nacionalidad": "China"
+        },
+        "Productores": ["Frances McDormand", "Peter Spears"],
+        "Actores Principales": [
+          { "Nombre": "Frances McDormand", "Personaje": "Fern" },
+          { "Nombre": "David Strathairn", "Personaje": "Dave" }
+        ],
+        "Premios Ganados": ["Mejor Película", "Mejor Dirección", "Mejor Actriz"]
+      },
+      "Mejor Dirección": {
+        "Ganador": "Chloé Zhao",
+        "Película": "Nomadland",
+        "Nacionalidad": "China"
+      },
+      "Mejor Actor": {
+        "Ganador": "Anthony Hopkins",
+        "Película": "The Father",
+        "Personaje": "Anthony"
+      },
+      "Mejor Actriz": {
+        "Ganadora": "Frances McDormand",
+        "Película": "Nomadland",
+        "Personaje": "Fern"
+      }
+    },
+    2021: {
+      "Mejor Película": {
+        "Título": "Nomadland",
+        "Director": {
+          "Nombre": "Chloé Zhao",
+          "Nacionalidad": "China"
+        },
+        "Productores": ["Frances McDormand", "Peter Spears"],
+        "Actores Principales": [
+          { "Nombre": "Frances McDormand", "Personaje": "Fern" },
+          { "Nombre": "David Strathairn", "Personaje": "Dave" }
+        ],
+        "Premios Ganados": ["Mejor Película", "Mejor Dirección", "Mejor Actriz"]
+      },
+      "Mejor Dirección": {
+        "Ganador": "Chloé Zhao",
+        "Película": "Nomadland",
+        "Nacionalidad": "China"
+      },
+      "Mejor Actor": {
+        "Ganador": "Anthony Hopkins",
+        "Película": "The Father",
+        "Personaje": "Anthony"
+      },
+      "Mejor Actriz": {
+        "Ganadora": "Frances McDormand",
+        "Película": "Nomadland",
+        "Personaje": "Fern"
+      }
+    },
+    2022: {
+      "Mejor Película": {
+        "Título": "CODA",
+        "Director": {
+          "Nombre": "Sian Heder",
+          "Nacionalidad": "EE.UU."
+        },
+        "Productores": ["Philippe Rousselet", "Patrick Wachsberger"],
+        "Actores Principales": [
+          { "Nombre": "Emilia Jones", "Personaje": "Ruby Rossi" },
+          { "Nombre": "Troy Kotsur", "Personaje": "Frank Rossi" }
+        ],
+        "Premios Ganados": ["Mejor Película", "Mejor Actor de Reparto (Troy Kotsur)", "Mejor Guion Adaptado"]
+      },
+      "Mejor Dirección": {
+        "Ganador": "Jane Campion",
+        "Película": "The Power of the Dog",
+        "Nacionalidad": "Nueva Zelanda"
+      },
+      "Mejor Actor": {
+        "Ganador": "Will Smith",
+        "Película": "King Richard",
+        "Personaje": "Richard Williams"
+      },
+      "Mejor Actriz": {
+        "Ganadora": "Jessica Chastain",
+        "Película": "The Eyes of Tammy Faye",
+        "Personaje": "Tammy Faye Bakker"
+      }
+    },
+    2023: {
+      "Mejor Película": {
+        "Título": "Everything Everywhere All at Once",
+        "Director": {
+          "Nombre": "Daniel Kwan & Daniel Scheinert",
+          "Nacionalidad": "EE.UU."
+        },
+        "Productores": ["Jonathan Wang"],
+        "Actores Principales": [
+          { "Nombre": "Michelle Yeoh", "Personaje": "Evelyn Wang" },
+          { "Nombre": "Ke Huy Quan", "Personaje": "Waymond Wang" }
+        ],
+        "Premios Ganados": ["Mejor Película", "Mejor Director", "Mejor Actriz (Michelle Yeoh)", "Mejor Actor de Reparto (Ke Huy Quan)"]
+      },
+      "Mejor Dirección": {
+        "Ganador": "Daniel Kwan & Daniel Scheinert",
+        "Película": "Everything Everywhere All at Once",
+        "Nacionalidad": "EE.UU."
+      },
+      "Mejor Actor": {
+        "Ganador": "Brendan Fraser",
+        "Película": "The Whale",
+        "Personaje": "Charlie"
+      },
+      "Mejor Actriz": {
+        "Ganadora": "Michelle Yeoh",
+        "Película": "Everything Everywhere All at Once",
+        "Personaje": "Evelyn Wang"
+      }
+    },
+    2024: {
+      "Mejor Película": {
+        "Título": "Oppenheimer",
+        "Director": {
+          "Nombre": "Christopher Nolan",
+          "Nacionalidad": "Reino Unido"
+        },
+        "Productores": ["Emma Thomas", "Charles Roven"],
+        "Actores Principales": [
+          { "Nombre": "Cillian Murphy", "Personaje": "J. Robert Oppenheimer" },
+          { "Nombre": "Robert Downey Jr.", "Personaje": "Lewis Strauss" }
+        ],
+        "Premios Ganados": ["Mejor Película", "Mejor Director", "Mejor Actor (Cillian Murphy)", "Mejor Actor de Reparto (Robert Downey Jr.)"]
+      },
+      "Mejor Dirección": {
+        "Ganador": "Christopher Nolan",
+        "Película": "Oppenheimer",
+        "Nacionalidad": "Reino Unido"
+      },
+      "Mejor Actor": {
+        "Ganador": "Cillian Murphy",
+        "Película": "Oppenheimer",
+        "Personaje": "J. Robert Oppenheimer"
+      },
+      "Mejor Actriz": {
+        "Ganadora": "Emma Stone",
+        "Película": "Poor Things",
+        "Personaje": "Bella Baxter"
+      }
+    }
+  ]
 }
