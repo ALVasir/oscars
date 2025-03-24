@@ -3,7 +3,7 @@ Base de datos con los Ganadores, Nominados, Presentadores y Anecdotario de los O
 
 Este proyecto va sobre un diccionario que contiene datos sobre los Oscars. El diccionario está formado a su vez por 4 diccionarios:
 
-- Ganadores de los Oscars, que será una lista de los años de 2010 a 2024, y cada año será un diccionario con las categorías.
+- Ganadores de los Oscars, que será una lista de los años de 2010 a 2023, y cada año será un diccionario con las categorías.
 - Nominados a os Oscars, donde lógicamente se incluirá el ganador, pero lo importante es ver todos los que se presentaron, así que seguirá la misma estructura aunque sin los apartados de premios como es obvio.
 - Presentadores, que incluirá los maestros de ceremonias y actores que presentaron cada nominación.
 - Anecdotario, que como su propio nombre indica será un breve diccionario repasando el evento.
@@ -14,77 +14,84 @@ La organización se podría plantear de otra forma, pero he elegido esta porque 
 
 Estructura del diccionario de diccionarios:
 
-Oscars = {"Ganadores": [lista de años 2010-2024], "Nominados": [lista de años 2010-2024], "Presentadores": [lista de años 2010-2024], "Anécdotas": [lista de años 2010-2024]} 
+Oscars = {"Ganadores": [lista de años 2010-2023], "Nominados": [lista de años 2010-2023], "Presentadores": [lista de años 2010-2023], "Anécdotas": [lista de años 2010-2023]} 
 Años = {"Mejor Película": {diccionario con datos}, "Mejor Dirección": {diccionario con datos}, "Mejor Actor": {diccionario con datos}, "Mejor Actriz": {diccionario con datos}
 
 Ejemplo del diccionario con el primer y último año:
 
 ```python
+
 {
-  "Ganadores": [
-    2010: {
-      "Mejor Película": {
-        "Título": "The Hurt Locker",
-        "Director": {
-          "Nombre": "Kathryn Bigelow",
-          "Nacionalidad": "EE.UU."
+    "Ganadores": [
+        {
+            "2010": {
+                "Mejor Pelicula": {
+                    "Titulo": "The Hurt Locker",
+                    "Director": {
+                        "Nombre": "Kathryn Bigelow",
+                        "Nacionalidad": "EE.UU."
+                    },
+                    "Productores": ["Kathryn Bigelow", "Mark Boal"],
+                    "Actores Principales": [
+                        {"Nombre": "Jeremy Renner", "Personaje": "Sargento William James"},
+                        {"Nombre": "Anthony Mackie", "Personaje": "Sargento J.T. Sanborn"}
+                    ],
+                    "Premios Ganados": ["Mejor Pelicula", "Mejor Director", "Mejor Guion Original"]
+                },
+                "Mejor Director": {
+                    "Ganador": "Kathryn Bigelow",
+                    "Pelicula": "The Hurt Locker",
+                    "Nacionalidad": "EE.UU."
+                },
+                "Mejor Actor": {
+                    "Ganador": "Jeff Bridges",
+                    "Pelicula": "Crazy Heart",
+                    "Personaje": "Bad Blake"
+                },
+                "Mejor Actriz": {
+                    "Ganador": "Sandra Bullock",
+                    "Pelicula": "The Blind Side",
+                    "Personaje": "Leigh Anne Tuohy"
+                }
+            }
         },
-        "Productores": ["Kathryn Bigelow", "Mark Boal"],
-        "Actores Principales": [
-          {"Nombre": "Jeremy Renner", "Personaje": "Sargento William James"},
-          {"Nombre": "Anthony Mackie", "Personaje": "Sargento J.T. Sanborn"}
-        ],
-        "Premios Ganados": ["Mejor Película", "Mejor Dirección", "Mejor Guión Original"]
-      },
-      "Mejor Dirección": {
-        "Ganador": "Kathryn Bigelow",
-        "Película": "The Hurt Locker",
-        "Nacionalidad": "EE.UU."
-      },
-      "Mejor Actor": {
-        "Ganador": "Jeff Bridges",
-        "Película": "Crazy Heart",
-        "Personaje": "Bad Blake"
-      },
-      "Mejor Actriz": {
-        "Ganadora": "Sandra Bullock",
-        "Película": "The Blind Side",
-        "Personaje": "Leigh Anne Tuohy"
-      }
-    },
-    ...
-    ...
-    ...
-    2024: {
-      "Mejor Película": {
-        "Título": "Oppenheimer",
-        "Director": {
-          "Nombre": "Christopher Nolan",
-          "Nacionalidad": "Reino Unido"
-        },
-        "Productores": ["Emma Thomas", "Charles Roven"],
-        "Actores Principales": [
-          { "Nombre": "Cillian Murphy", "Personaje": "J. Robert Oppenheimer" },
-          { "Nombre": "Robert Downey Jr.", "Personaje": "Lewis Strauss" }
-        ],
-        "Premios Ganados": ["Mejor Película", "Mejor Director", "Mejor Actor (Cillian Murphy)", "Mejor Actor de Reparto (Robert Downey Jr.)"]
-      },
-      "Mejor Dirección": {
-        "Ganador": "Christopher Nolan",
-        "Película": "Oppenheimer",
-        "Nacionalidad": "Reino Unido"
-      },
-      "Mejor Actor": {
-        "Ganador": "Cillian Murphy",
-        "Película": "Oppenheimer",
-        "Personaje": "J. Robert Oppenheimer"
-      },
-      "Mejor Actriz": {
-        "Ganadora": "Emma Stone",
-        "Película": "Poor Things",
-        "Personaje": "Bella Baxter"
-      }
-    }
-  ]
+...
+...
+...
+        {
+          "2023": {
+              "Mejor Pelicula": {
+                  "Titulo": "Oppenheimer",
+                  "Director": {
+                    "Nombre": "Christopher Nolan",
+                    "Nacionalidad": "Reino Unido"
+                  },
+                  "Productores": ["Emma Thomas", "Charles Roven"],
+                  "Actores Principales": [
+                    { "Nombre": "Cillian Murphy", "Personaje": "J. Robert Oppenheimer" },
+                    { "Nombre": "Robert Downey Jr.", "Personaje": "Lewis Strauss" }
+                  ],
+                  "Premios Ganados": ["Mejor Pelicula", "Mejor Director", "Mejor Actor (Cillian Murphy)", "Mejor Actor de Reparto (Robert Downey Jr.)"]
+              },
+              "Mejor Director": {
+                  "Ganador": "Christopher Nolan",
+                  "Pelicula": "Oppenheimer",
+                  "Nacionalidad": "Reino Unido"
+              },
+              "Mejor Actor": {
+                  "Ganador": "Cillian Murphy",
+                  "Pelicula": "Oppenheimer",
+                  "Personaje": "J. Robert Oppenheimer"
+              },
+              "Mejor Actriz": {
+                  "Ganador": "Emma Stone",
+                  "Pelicula": "Poor Things",
+                  "Personaje": "Bella Baxter"
+              }
+            }
+        }
+    ]
 }
+
+
 ```
