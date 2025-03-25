@@ -29,7 +29,7 @@ def opcion1(cabecera, diccionario):
 
 def opcion2(cabecera, diccionario):
 # 2. Lista las películas de Reino Unido e indica cuántas son
-    os.system('cls')
+    os.system('clear')
     print(cabecera)
     print("\nPELÍCULAS DEL REINO UNIDO GANADORAS DE OSCARS\n")
     
@@ -70,4 +70,3 @@ def opcion2(cabecera, diccionario):
         print("No se encontraron películas del Reino Unido.")
  
     input("\n< presione ENTER para volver al MENÚ >")
-
