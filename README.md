@@ -87,3 +87,11 @@ Ejemplo del diccionario con el primer y último año:
 }
 
 ```
+
+Las peticiones para el menú son:
+
+1. Listado de todas las películas ganadoras indicando su categoría y el año
+2. Lista las películas de Reino Unido e indica cuántas son
+3. Pide un año e indica los ganadores por categoria
+4. Listar los Oscars de un actor/director. Ej: Stiven Spielberg ganó x Oscars los años: 2020 con la peli X, 2021 con la peli X
+5. Listar qué actor o director o película tienen más Oscars y cuantos tiene
